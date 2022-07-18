@@ -1,3 +1,172 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+    font-style: italic;
+    font-family: Roboto,sans-serif;
+}
+.banner{
+    height: calc(100vh);
+    background: url(img/banner.png) center center;
+    background-size: cover;
+}
+.container{
+    width: 304px;
+    margin: 0 auto;
+    color: #FFFFFF;
+    padding: 308px 0;
+}
+h6{
+    font-size: 24px;
+    line-height: 42px;
+}
 h1{
-    color: aqua;
+    font-size: 72px;
+    line-height: 106px;   
+    font-weight: bold;    
+}
+.container p{
+    font-size: 24px;
+    line-height: 36px;
+    padding-top: 32px;
+}
+.item{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.item img{
+    width: 60px;
+    height: 60px;
+}
+.about{
+    width: 450px;
+    margin: 0 auto;   
+    text-align: center;   
+}
+h2{
+    font-size: 64px;
+    line-height: 84px;
+    font-weight: medium;
+    padding-top: 56px;
+}
+.about img{
+    padding-top: 40px;
+}
+.about ul{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: bold;
+}
+.line{
+    padding-top: 20px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #000;
+}
+.circle{
+    line-height: 42px;
+    padding-top: 28px;
+}
+.circle li{
+    display:flex;
+    justify-content: center;
+    padding-bottom: 28px;
+}
+.circle div{
+    width: 22px;
+    height: 22px;
+    background-color: #891818;
+    border-radius: 50%;
+    margin-right: 16px;
+    margin-top: 6px;
+    /* 紅色div是參考 作業討論 sheng的li-style問題解決*/
+}
+.footer, .middle{
+    margin-top: 56px;
+    background-color: #000000;
+    text-align: center;
+    color: #FFFFFF;
+}
+.brand h6{
+   padding-top: 12px;
+}
+.brand p{
+    padding-top: 32px;
+    padding-bottom: 68px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.unsplash{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 160px;
+}
+.other{
+    max-width: 1200px;
+    text-align: center;
+    margin-bottom: 88px;
+    margin: 0 auto;
+}
+.other p{
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 16px;
+    padding-bottom: 48px;
+    font-weight: medium;
+}
+.other ul{
+    display: flex;
+    justify-content: space-between;
+}
+.contact{
+    padding-bottom: 64px;
+}
+.contact li{
+    padding-top: 16px;
 }
